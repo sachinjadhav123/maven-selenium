@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://devccare-dl17.tweb.aol.com:8080/mCareBeta/Home.jsp?guid=kevinqa" />
+<title>GPS_Customer Details</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">GPS_Customer Details</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/mCareBeta/Home.jsp?guid=kevinqa</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPageToLoad</td>
+	<td>60000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectAndWait</td>
+	<td>id=Merchantname</td>
+	<td>label=GPS</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=li</td>
+	<td>Welcome kevinqa [GPS]</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=findCust_lbl_mCare</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Find Customer</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Basic Search</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=findCust_lbl_MonSearch</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>MON Search</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Order Id Search</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Payment Method Search</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Go to Guid</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=findCust_lbl_BasSearch</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=guid</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=firstname</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=email</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=lastname</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=search</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=firstname</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=firstname</td>
+	<td>umesh</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=search</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>link=umesh_4</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=umesh_4</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=arcs_lbl_mCare</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Umesh Chhatre's Status</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Customer Information</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Subscriptions</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Payment Methods</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Billing History</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Name</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>GUID</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Email</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Address</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=arcs_lbl_bal</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Outstanding Balance</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Brand</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=arcs_lbl_as_hPurDt</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Logout</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>You have successfully logged out mCare system. Log back in?</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

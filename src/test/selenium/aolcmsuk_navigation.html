@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://devccare-dl17.tweb.aol.com:8080/" />
+<title>aolspp_navigation</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">aolspp_navigation</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/mCareBeta/Home.jsp?guid=kevinqa</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPageToLoad</td>
+	<td>60000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectAndWait</td>
+	<td>id=Merchantname</td>
+	<td>label=aolcmsuk</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=guid</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=guid</td>
+	<td>*</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=search</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>link=aolcmsuk-200000000000000000000000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=aolcmsuk-200000000000000000000000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=custStatus_lbl_ProvStatTlt</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=statusLI</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=paymentDetailsLI</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=customerName</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=paymentPeriod</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Not In Process (0)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=In Approval Process (0)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Payment in Process (0)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Paid (0)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Adjustments (0)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=emailMessagesLI</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=emailMsgs_customerName</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=logsLI</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=logs_customerName</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Last 1 Months Last 2 Months Last 3 Months Last 4 Months Last 5 Months Last 6 Months Last 7 Months Last 8 Months Last 9 Months Last 10 Months Last 11 Months Last 12 Months Last 13 Months Last 14 Months Last 15 Months Last 16 Months Last 17 Months Last 18 Months Last 19 Months Last 20 Months Last 21 Months Last 22 Months Last 23 Months Last 24 Months</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Logout</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>exact:You have successfully logged out mCare system. Log back in?</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

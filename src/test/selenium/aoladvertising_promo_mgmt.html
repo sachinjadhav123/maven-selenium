@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://devccare-dl17.tweb.aol.com:8080/" />
+<title>aoladvertising_promo_mgmt</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">aoladvertising_promo_mgmt</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/mCareBeta/Home.jsp?guid=kevinqa</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectAndWait</td>
+	<td>id=Merchantname</td>
+	<td>label=aoladvertising</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=promoManagementLI</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=addPrDiv</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=addPrBtn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=promoMgmt_lbl_tPromoMgmt</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=promoMgmt_lbl_tGlobalLimit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=promoMgmt_lbl_tAccLimitOver</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Promo Code:</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>exact:Amount:</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Start Date (MM/DD/YYYY):</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Line Item ID:</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>exact:Status:</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>End Date (MM/DD/YYYY):</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=search</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=promoMgmt_reset</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=promoMgmt_lbl_tGlobalLimit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Please select the line item ID:</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Current global promo limit for this line item was set to</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Please enter the new global promo limit:</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=save</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=promoMgmt_reset</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=promoMgmt_lbl_tAccLimitOver</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Please select the line item ID:</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Please enter the new account promo limit:</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>xpath=(//img[@alt='Save'])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=promoMgmt_reset</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=promoMgmt_lbl_tPromoMgmt</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=addPrBtn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=addPrBtn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Add Promo</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=LineItemId</td>
+	<td>label=regexp:40\s-\saoladvertising</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=PromoCode</td>
+	<td>12</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=PromoDescription</td>
+	<td>test</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=MaximumUsage</td>
+	<td>1000</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=PromoStartDate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=PromoEndDate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#cancelPrDet &gt; img[alt=&quot;Close&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=feedsLI</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>link=Logout</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
